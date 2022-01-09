@@ -1,7 +1,7 @@
 name: XC16 Build
 description: Build a MPLAB X project by using XC16 compiler
 branding:
-  icon: speaker
+  icon: package
   color: gray-dark
 
 inputs:

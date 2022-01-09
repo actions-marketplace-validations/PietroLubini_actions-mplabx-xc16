@@ -36,8 +36,8 @@ jobs:
       - name: Download source
         uses: actions/checkout@v2
 
-      - name: Build library
-        uses: PietroLubini/actions-mplabx-xc16@main'
+      - name: Build MPLAB X project
+        uses: PietroLubini/actions-mplabx-xc16@v1'
         with:
           project-path: src
           configuration: build
