@@ -29,6 +29,6 @@ jobs:
           context: .
           pull: true
           push: true
-          cache-from: type=registry,ref=hub.docker.com/${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.DOCKERHUB_REPOSITORY }}/actions-mplabx-xc16:latest
+          cache-from: type=registry,ref=docker.io/${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.DOCKERHUB_REPOSITORY }}/actions-mplabx-xc16:latest
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
