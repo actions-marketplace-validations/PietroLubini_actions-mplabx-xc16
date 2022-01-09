@@ -1,11 +1,5 @@
 #!/bin/sh
 
-while [ 1 ]
-do
-  echo 'test'
-  sleep 2
-done
-
 echo "Docker Container Building $1:$2"
 
 set -x -e
