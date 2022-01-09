@@ -10,11 +10,11 @@ It runs on Linux Ubuntu 18.04 and uses:
 
 ### `project-path`
 
-**Required** The path to the project to build (relative to the repository). For example: 'src'.
+**Required** A path to the project to build (relative to the repository). Default: `src`
 
 ### `configuration`
 
-The configuration of the project to build. Defaults to `build`.
+A configuration of the project to build. Default: `build`.
 
 ## Outputs
 

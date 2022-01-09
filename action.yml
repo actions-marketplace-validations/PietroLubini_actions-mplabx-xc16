@@ -1,0 +1,22 @@
+name: XC16 Build
+description: Build a MPLAB X project by using XC16 compiler
+branding:
+  icon: speaker
+  color: gray-dark
+
+inputs:
+  project-path:
+    description: "A path to the project to build (relative to the repository). Default: 'src'"
+    required: true
+    default: "src"
+  configuration:
+    description: "A configuration of the project to build. Default: 'build'"
+    required: true
+    default: "build"
+
+runs:
+  using: "docker"
+  image: docker://docker.io/${{ secrets.DOCKERHUB_USERNAME }}/actions-mplabx-xc16:latest
+  args:
+    - ${{ inputs.project-path }}
+    - ${{ inputs.configuration }}
