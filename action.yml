@@ -16,7 +16,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: docker://docker.io/${{ secrets.DOCKERHUB_USERNAME }}/actions-mplabx-xc16:latest
+  image: docker://docker.io/pietrolubini/actions-mplabx-xc16:latest
   args:
     - ${{ inputs.project-path }}
     - ${{ inputs.configuration }}
