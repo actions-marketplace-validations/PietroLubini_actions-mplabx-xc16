@@ -10,7 +10,7 @@ It runs on Linux Ubuntu 18.04 and uses:
 
 ### `project-path`
 
-**Required** A path to the project to build (relative to the repository). Default: `src`
+**Required** A path to the project to build (relative to the repository). Default: `firmware`
 
 ### `configuration`
 
@@ -39,6 +39,6 @@ jobs:
       - name: Build MPLAB X project
         uses: PietroLubini/actions-mplabx-xc16@v1'
         with:
-          project-path: src
+          project-path: firmware
           configuration: build
 ```

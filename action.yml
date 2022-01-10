@@ -6,9 +6,9 @@ branding:
 
 inputs:
   project-path:
-    description: "A path to the project to build (relative to the repository). Default: 'src'"
+    description: "A path to the project to build (relative to the repository). Default: 'firmware'"
     required: true
-    default: "src"
+    default: "firmware"
   configuration:
     description: "A configuration of the project to build. Default: 'build'"
     required: true
