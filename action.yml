@@ -1,4 +1,4 @@
-name: XC16 Build
+name: Build XC16
 description: Build a MPLAB X project by using XC16 compiler
 branding:
   icon: package
